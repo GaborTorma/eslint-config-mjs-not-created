@@ -23,5 +23,8 @@
     "@nuxt/eslint": "0.3.0-beta.1",
     "eslint": "^8.57.0",
     "vite-plugin-eslint2": "^4.4.0"
-  }
+  },
+  "stackblitz": {
+    "startCommand": "pnpm run lint"
+  }  
 }
