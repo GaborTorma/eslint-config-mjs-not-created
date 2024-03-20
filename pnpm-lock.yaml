@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^0.3.0
     version: 0.3.0(@vue/compiler-sfc@3.4.21)(typescript@5.4.2)
   '@nuxt/eslint':
-    specifier: 0.3.0-alpha.1
-    version: 0.3.0-alpha.1(eslint@8.57.0)(nuxt@3.11.1)(typescript@5.4.2)(vite-plugin-eslint2@4.4.0)(vite@5.1.6)
+    specifier: 0.3.0-beta.1
+    version: 0.3.0-beta.1(eslint@8.57.0)(nuxt@3.11.1)(typescript@5.4.2)(vite-plugin-eslint2@4.4.0)(vite@5.1.6)
   eslint:
     specifier: ^8.57.0
     version: 8.57.0
@@ -1233,13 +1233,13 @@ packages:
       - supports-color
       - utf-8-validate
 
-  /@nuxt/eslint-config@0.3.0-alpha.1(eslint@8.57.0)(typescript@5.4.2):
-    resolution: {integrity: sha512-bB3X3pCnpnngea15/Xxk83wGGr/Kxop8hyD0sLkC+2q54RclLkBRLvK/hd5/tS1zjBOIZJ5mYhq63mE2biBG9w==}
+  /@nuxt/eslint-config@0.3.0-beta.1(eslint@8.57.0)(typescript@5.4.2):
+    resolution: {integrity: sha512-pQz6FwDBwsUWtY1VIzfeuWE8QniX+FG75bgBPExl2FGqoGi/twQU5EJjbp4uTKnzAVggmcHjaXuqbW8liVg4Ng==}
     peerDependencies:
-      eslint: ^8.56.0
+      eslint: ^8.57.0
     dependencies:
       '@eslint/js': 8.57.0
-      '@nuxt/eslint-plugin': 0.3.0-alpha.1(eslint@8.57.0)(typescript@5.4.2)
+      '@nuxt/eslint-plugin': 0.3.0-beta.1(eslint@8.57.0)(typescript@5.4.2)
       '@rushstack/eslint-patch': 1.8.0
       '@stylistic/eslint-plugin': 1.7.0(eslint@8.57.0)(typescript@5.4.2)
       '@typescript-eslint/eslint-plugin': 7.3.1(@typescript-eslint/parser@7.3.1)(eslint@8.57.0)(typescript@5.4.2)
@@ -1253,10 +1253,10 @@ packages:
       - typescript
     dev: true
 
-  /@nuxt/eslint-plugin@0.3.0-alpha.1(eslint@8.57.0)(typescript@5.4.2):
-    resolution: {integrity: sha512-KYgxFMA1S3R3iUOSiZeqtdR6xjy5BZZtH3HJBi8Eqcfi6mY9GijPxy1eH8Tns6VROc6nsecIAJf2dK43akVrFQ==}
+  /@nuxt/eslint-plugin@0.3.0-beta.1(eslint@8.57.0)(typescript@5.4.2):
+    resolution: {integrity: sha512-kWQAzyjxCFNMAH7EHomsHWwR+zlifpeAnRM9gtofdPjG3Dsl5duP4+M+5iCV0ER2DAgZ1ByJ62u4wT6Hei4XRw==}
     peerDependencies:
-      eslint: ^8.55.0
+      eslint: ^8.57.0
     dependencies:
       '@typescript-eslint/types': 7.3.1
       '@typescript-eslint/utils': 7.3.1(eslint@8.57.0)(typescript@5.4.2)
@@ -1266,10 +1266,10 @@ packages:
       - typescript
     dev: true
 
-  /@nuxt/eslint@0.3.0-alpha.1(eslint@8.57.0)(nuxt@3.11.1)(typescript@5.4.2)(vite-plugin-eslint2@4.4.0)(vite@5.1.6):
-    resolution: {integrity: sha512-zwttUZ37pU83X96UqyAW7J50/622PlUDlKd20zIN6mbbU2YVUhM1r6vH4W65vz5LxpIchxlvPg05LE/SLE1PJQ==}
+  /@nuxt/eslint@0.3.0-beta.1(eslint@8.57.0)(nuxt@3.11.1)(typescript@5.4.2)(vite-plugin-eslint2@4.4.0)(vite@5.1.6):
+    resolution: {integrity: sha512-onImcM7Qoh2XvCEty0NuBPVK3C4KXKi/7tUx+R8E5l96gAkWwASb4TjS6/3Q5EqQtD7qw77NJWkq7Cpu7t5AEg==}
     peerDependencies:
-      eslint: ^8.55.0
+      eslint: ^8.57.0
       eslint-webpack-plugin: ^4.1.0
       vite-plugin-eslint2: ^4.4.0
     peerDependenciesMeta:
@@ -1279,8 +1279,8 @@ packages:
         optional: true
     dependencies:
       '@nuxt/devtools-kit': 1.1.0(nuxt@3.11.1)(vite@5.1.6)
-      '@nuxt/eslint-config': 0.3.0-alpha.1(eslint@8.57.0)(typescript@5.4.2)
-      '@nuxt/eslint-plugin': 0.3.0-alpha.1(eslint@8.57.0)(typescript@5.4.2)
+      '@nuxt/eslint-config': 0.3.0-beta.1(eslint@8.57.0)(typescript@5.4.2)
+      '@nuxt/eslint-plugin': 0.3.0-beta.1(eslint@8.57.0)(typescript@5.4.2)
       '@nuxt/kit': 3.11.1
       chokidar: 3.6.0
       eslint: 8.57.0
