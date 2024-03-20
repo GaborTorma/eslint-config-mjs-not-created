@@ -3,5 +3,9 @@
         "activityBar.background": "#103048",
         "titleBar.activeBackground": "#164365",
         "titleBar.activeForeground": "#F8FBFE"
-    }
+    },
+    // Enable the ESlint flat config support
+    "eslint.experimental.useFlatConfig": true
+    
+ 
 }

@@ -5,6 +5,8 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -14,5 +16,12 @@
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
-  "packageManager": "pnpm@8.15.4+sha256.cea6d0bdf2de3a0549582da3983c70c92ffc577ff4410cbf190817ddc35137c2"
+  "packageManager": "pnpm@8.15.4+sha256.cea6d0bdf2de3a0549582da3983c70c92ffc577ff4410cbf190817ddc35137c2",
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.8.3",
+    "@gabortorma/antfu-eslint-config": "^0.3.0",
+    "@nuxt/eslint": "0.3.0-alpha.1",
+    "eslint": "^8.57.0",
+    "vite-plugin-eslint2": "^4.4.0"
+  }
 }
